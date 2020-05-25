@@ -2,7 +2,6 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { RecipeService } from './../recipe.service';
 import { Recipe } from './../recipe.modal';
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-import { relative } from 'path';
 
 @Component({
   selector: 'app-recipe-list',
