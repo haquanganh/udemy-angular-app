@@ -1,3 +1,5 @@
+import { PlaceHolderDirective } from './shared/placeholder/placeholder.directive';
+import { AlertComponent } from './shared/alert/alert.component';
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { RecipeService } from './recipes/recipe.service';
 import { AppRoutingModule } from './app-routing.module';
@@ -35,6 +37,8 @@ import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinne
     RecipeEditComponent,
     AuthComponent,
     LoadingSpinnerComponent,
+    AlertComponent,
+    PlaceHolderDirective,
   ],
   imports: [
     BrowserModule,
