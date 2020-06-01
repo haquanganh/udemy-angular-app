@@ -1,8 +1,6 @@
 import { RecipeService } from './../recipe.service';
-import { ShoppingListService } from './../../shopping-list/shopping-list.service';
 import { Recipe } from './../recipe.modal';
-import { Component, OnInit, Input } from '@angular/core';
-import { Ingredient } from 'src/app/shared/ingredients.modal';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 
 @Component({
