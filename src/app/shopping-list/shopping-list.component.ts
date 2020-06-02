@@ -5,6 +5,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Observable } from 'rxjs';
 import * as fromShoppingList from './store/shopping-list.reducer';
 import * as shoppingListAction from './store/shopping-list.actions';
+import * as fromApp from '../store/app.reducer';
 @Component({
   selector: 'app-shopping-list',
   templateUrl: './shopping-list.component.html',
@@ -15,7 +16,7 @@ export class ShoppingListComponent implements OnInit, OnDestroy {
   // private subscription: Subscription;
   constructor(
     private loggingService: LoggingService,
-    private store: Store<fromShoppingList.AppState>
+    private store: Store<fromApp.AppState>
   ) {}
 
   ngOnInit(): void {
